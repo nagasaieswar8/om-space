@@ -1,5 +1,7 @@
 # OM SPACE
 
+**Live website:** [Open OM SPACE](https://own-space-mu.vercel.app)
+
 OM SPACE is a real-estate discovery and management capstone project focused on Vijayawada. Customers can find and compare listings and contact agencies; agencies manage their listings and enquiries; administrators oversee users and property activity.
 
 ## What is included
