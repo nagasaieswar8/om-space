@@ -1,0 +1,26 @@
+OM SPACE — DEPLOYMENT NOTES
+
+This package excludes local dependencies, Next.js build output, and private .env files.
+
+1. Extract this ZIP.
+2. Open the OM-SPACE folder in VS Code (the folder containing package.json).
+3. Run: npm install
+4. Run: npm run build
+5. Push the project to a PRIVATE GitHub repository first.
+6. In Vercel, import that repository and add the environment variables listed below.
+
+Environment variable names used by the supplied .env file:
+- MONGODB_URI
+- NEXTAUTH_URL
+- NEXTAUTH_SECRET
+- GEMINI_API_KEY
+- NEXT_PUBLIC_GOOGLE_MAPS_KEY
+- SEED_ADMIN_EMAIL
+- SEED_ADMIN_PASSWORD
+- SEED_CUSTOMER_EMAIL
+- SEED_CUSTOMER_PASSWORD
+- SEED_AGENCY_EMAIL
+- SEED_AGENCY_PASSWORD
+
+Add only variables required by the deployed application. Do not commit .env or share secret values.
+If any real credentials were included in the uploaded .env file, consider rotating them before public deployment.
