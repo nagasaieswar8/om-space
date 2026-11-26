@@ -58,3 +58,5 @@ final_merged.json
 housing_data.json
 MumbaiCommercialProperties.json
 .vercel
+
+.netlify
